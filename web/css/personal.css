@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.infoOutBox{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*水平线上半部分*/
+#div_top{
+    width: 50%;
+    height: 170px;
+    padding: 0 30px;
+    margin: 10px auto;
+    border-bottom: 2px solid #4169E1;
+    overflow: hidden;
+}
+
+/*头像框*/
+#headImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #4169E1;
+    padding: 3px;
+    overflow: hidden;
+}
+
+/*头像图片*/
+#headImg img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/*用户名字的 p 标签*/
+#username{
+    position: relative;
+    left: 150px;
+    top: -80px;
+    width: 100px;
+    font-size: 23px;
+    color: #4169E1;
+}
+
+/*更多用户信息div*/
+#moreInfo{
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+/*用于显示更多信息的表格*/
+#moreInfo table{
+    width: 300px;
+    margin: 0 auto;
+}
+
+/*信息表格下划线*/
+#moreInfo td{
+    line-height: 45px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*修改信息和后台管理*/
+.manageBox, .updateBox{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px auto;
+    background-color: #4169E1;
+    border: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.manageBox a, .updateBox a{
+    color: white;
+}
+
+/*退出登录按钮*/
+#a_logout{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    right: 400px;
+    background: #4169E1;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*退出登录按钮的图片*/
+#a_logout img{
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+

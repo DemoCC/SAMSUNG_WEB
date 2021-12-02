@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;	/*隐藏x滚轮 */
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.u_navtips2{
+	margin-left: 200px;
+}
+
+/* 中间主要内容 */
+.content{
+	width: 100%;
+	text-align: center;
+	margin: 70px auto;
+}
+
+.content img{
+	margin-top: 20px;
+	width: 150px
+}
+
+.content p{
+	margin-top: 30px;
+}
+
+.content a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 40px;
+	background: #1429A0;
+	color: white;
+	margin: 30px auto;
+}
+
+/*中部订单背景*/
+.contentBox{
+	width: 100%;
+	padding: 15px 10px;
+}
+.ul_head{
+	width: 1000px;
+	margin-top: 50px;
+	font-size: 17px;
+	font-weight: 600;
+}
+.cart_itemHead{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ul_head li{
+	float: left;
+	width: 250px;
+}
+/*单个订单框*/
+.cart_item{
+	width: 1000px;
+	height: 60px;
+	padding: 10px 20px;
+	border: 1px solid #c0c4cc;
+	border-radius: 10px;
+	margin: 25px auto;
+	font-size: 15px;
+	overflow: hidden;
+}
+/*item里的图片*/
+.cart_item img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.grid-demo{
+	line-height: 60px;
+}
+
+.grid-demo-bg{
+	margin-left: 100px;
+}
+.layui-col-md3 input{
+	margin-left: 80px;
+}
+.a_delete{
+	width: 50px;
+	height: 35px;
+	background: #FF5722;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#clearAll,#settlement{
+	width: 100px;
+	height: 35px;
+	background: #1E9FFF;
+	padding: 10px;
+	color: white;
+	outline: none;
+	line-height: 40px;
+	margin: 0 10px;
+	border-radius: 2px;
+}
+/*#clearAll:hover{*/
+/*	cursor: pointer;*/
+/*}*/
+#clearAll:hover,#settlement:hover{
+	cursor: pointer;
+}
+
+.settlementFoot{
+	width:500px;
+	margin-left: 500px;
+}
+.selectAllDiv{
+	position: absolute;
+	top: 170px;
+	right: 100px;
+}
+/*数量和总价*/
+#totalMoney, #productTotal{
+	font-size: 18px;
+	color: #4169E1;
+	font-weight: 600;
+	margin-right: 15px;
+}
+
+/*弹出层*/
+.payDiv{
+	text-align: center;
+}
+.aliPay,.weChatPay{
+	display: inline-block;
+	width: 350px;
+	height: 400px;
+	margin: 10px 20px;
+}
+.aliPay img{
+	width: 100%;
+	height: 100%;
+}
+.weChatPay img{
+	width: 100%;
+	height: 100%;
+}

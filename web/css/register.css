@@ -1,0 +1,63 @@
+/* 头部样式在header.css */
+
+/*选择头像的地方*/
+#headImg_div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #F5F5F5;
+    border-radius: 50%;
+    top: 200px;
+    left: 100px;
+    padding: 50px 50px;
+}
+
+/*输入框外部div*/
+#inPutUserInfo_div {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*信息输入框们*/
+#inPutUserInfo_div input, .sex_select{
+    width: 350px;
+    height: 55px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 35px;
+    background: #F5F5F5;
+    border: none;
+    outline: #1429A0;
+    border-radius: 10px;
+}
+
+/*当输入框聚焦时*/
+#inPutUserInfo_div input:focus {
+    border: 1px solid #1e90ff;
+}
+
+/*提交按钮*/
+#submitBtn {
+    /*display: block;*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 280px;
+    right: 150px;
+    color: white;
+    font-size: 50px;
+    background-image: linear-gradient(#1E90FF, #4169E1);
+    border: 1px solid #1E90FF;
+    outline: none;
+}
+
+/*注册反馈信息*/
+#errorMsg{
+    color: #ff0000;
+    position: absolute;
+    right: 150px;
+    bottom: 140px;
+}
+

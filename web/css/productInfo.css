@@ -1,0 +1,122 @@
+* {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*导航栏*/
+.header_pInfo{
+    width: 100%;
+    height: 50px;
+    background: #F7F7F7;
+}
+.header_pInfo ul li{
+    list-style: none;
+    line-height: 50px;
+    float: left;
+    font-size: 15px;
+    margin-left: 10px;
+}
+/*导航栏li的奇数行*/
+li:nth-of-type(odd) {
+    color: rgba(0, 0, 0, 0.70);
+}
+/*导航栏li的偶数行*/
+li:nth-of-type(even){
+    color: #C0C4CC;
+}
+/*购物车图标*/
+.header_pInfo img{
+    float: right;
+    width: 30px;
+    margin: 10px 30px;
+}
+/*板块左边部分*/
+.grid-demo-bg1{
+    text-align: center;
+}
+/*产品大图片*/
+.grid-demo-bg1 img{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+/*板块右边部分*/
+.grid-demo-bg2{
+    text-align: left;
+}
+/*商品名字*/
+.grid-demo-bg2 h1{
+    font-family: 方正兰亭大黑简体, serif;
+    margin-top: 50px;
+}
+/*颜色和配送地址标题*/
+.grid-demo-bg2 p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.grid-demo-bg2 h3{
+    font-size: 25px;
+    margin-top: 5px;
+}
+/*手机颜色属性外框*/
+.h3_color{
+    width: 150px;
+    height: 35px;
+    border: 1px solid #1e90ff;
+    border-radius: 10px;
+    text-align: center;
+}
+/*添加数量的外盒子*/
+.buyNumBox{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+/*购买数量*/
+.span_quantity{
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    border: 1px solid #c0c4cc;
+    text-align: center;
+    /*overflow: hidden;*/
+}
+/*购买数量的加号和减号*/
+.span_add, .span_reduce{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #e0e5ed;
+    text-align: center;
+    color: #6b6b6b;
+}
+/*价格*/
+.totalMoney{
+    margin-top: 20px;
+    color: #1e90ff;
+    font-size: 27px;
+    font-family: Bahnschrift, serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+/*添加购物车*/
+#addCart{
+    width: 100px;
+    height: 40px;
+    background: #4169E1;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+}

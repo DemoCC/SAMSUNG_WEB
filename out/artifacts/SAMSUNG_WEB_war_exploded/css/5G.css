@@ -1,0 +1,78 @@
+/* 头部样式在header.css */
+
+/* 5G页面顶端文字*/
+.p1{
+	text-align: center;
+	padding: 20px 150px;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+/*大图片的盒子*/
+.homeBox{
+	width: 90%;
+	height: 600px;
+	margin: 20px auto;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+/*大图片*/
+.homeBox img{
+	width: 100%;
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
+/*大图动画*/
+.homeBox img:hover{
+	transform: scale(1.3);
+}
+
+/* 5G设备推荐 */
+.title2{
+	width: 100%;
+	background: #F5F5F5;
+}
+
+/*手机列表区*/
+.smartPhoneBox{
+	width: 99%;
+	padding: 0 50px;
+	background: #F5F5F5;
+}
+
+.phoneListItem{
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	background: #FFFFFF;
+	border-radius: 15px;
+	text-align: center;
+	margin: 15px 15px;
+	padding: 30px 5px;
+	transition: transform 0.3s linear;
+}
+
+.phoneListItem:hover{
+	transform: translateY(-10px);
+	border-top: 5px solid #1429A0;
+	box-shadow: 0 5px 10px #1429A0;
+}
+
+.phoneListItem img{
+	width: 60%;
+}
+
+/* 手机名 */
+.phoneListItem p{
+	margin: 13px 0;
+	font-size: 15px;
+	color: #5e5e5e;
+}
+
+/* 价格 */
+.phoneListItem h4{
+	color: #1e90ff;
+	margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SAMSUNG_WEB:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SAMSUNG_WEB_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SAMSUNG_WEB/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SAMSUNG_WEB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="druid-1.1.9" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.5" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.11" />
+          <element id="library" level="project" name="commons-beanutils-1.9.4" />
+          <element id="library" level="project" name="commons-dbcp2-2.8.0" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="commons-pool2-2.9.0" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="project" name="lombok-1.18.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

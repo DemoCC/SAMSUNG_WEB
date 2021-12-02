@@ -1,0 +1,135 @@
+.fl {
+	float: left;
+	display: inline-block;
+	padding: 5px 3px;
+}
+
+.fr {
+	float: right;
+	height: 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	transition: ease all 0.5s;
+}
+
+a {
+	color: #1429A0
+}
+
+.login_header {
+	margin-bottom: 20px;
+}
+
+.login_header span {
+	display: block;
+	height: 25px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.loginbox {
+	width: 350px;
+	overflow: hidden;
+	padding: 20px;
+	padding-top: 15px;
+}
+
+.Cbody_item {
+	border: 0 solid #999;
+	overflow: hidden;
+}
+
+.form_item {
+	font-size: 13px;
+}
+
+.form_item input[type="text"],
+.form_item input[type="password"] {
+	display: block;
+	width: calc(99% - 18px);
+	height: 36px;
+	margin: 0 auto;
+	padding-left: 16px;
+	outline: none;
+	border: 1px solid #999;
+	transition: ease all 0.5s;
+	margin-bottom: 20px;
+}
+
+.form_item input[type="text"]:focus,
+.form_item input[type="password"]:focus {
+	border: 1px solid #1429A0
+}
+
+.form_item input[type="submit"] {
+	display: block;
+	width: calc(100% - 0px);
+	height: 40px;
+	margin: 0 auto;
+	padding-left: 16px;
+	outline: none;
+	border: 1px solid #1429A0;
+	transition: ease all 0.5s;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #1429A0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form_item input[type="submit"]:hover {
+	background-color: #1429A0;
+	border: 1px solid #1429A0;
+}
+
+.active {
+	color: #1429A0;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #1429A0;
+}
+
+.login_warp {
+	width: 400px;
+	margin: 30px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 0 #ccc;
+	overflow: hidden;
+	border: 1px solid #1429A0;
+	margin-top: 5%;
+	transition: ease all 0.5s;
+	position: relative;
+	top: 0;
+	cursor: pointer;
+}
+
+.login_warp:hover {
+	top: -40px;
+	box-shadow: 0 15px 21px #ccc;
+}
+
+.loginrslider {
+	color: #fff;
+
+}
+
+.qcode {
+	width: 160px;
+	height: 160px;
+	background-color: #ccc;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+
+.beizhu {
+	text-align: center;
+	font-size: 13px;
+	margin-top: 10px;
+	color: #999
+}

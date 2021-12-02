@@ -1,0 +1,201 @@
+/*bootstrap框架 分页样式*/
+
+.page {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0px 0;
+    border-radius: 4px;
+}
+.page > li {
+    display: inline;
+}
+.page > li > a,
+.page > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.page > li:first-child > a,
+.page > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.page > li:last-child > a,
+.page > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.page > li > a:hover,
+.page > li > span:hover,
+.page > li > a:focus,
+.page > li > span:focus {
+    z-index: 3;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.page > .actives > a,
+.page > .actives > span,
+.page > .actives > a:hover,
+.page > .actives > span:hover,
+.page > .actives > a:focus,
+.page > .actives > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.page > .disable > span,
+.page > .disable > span:hover,
+.page > .disable > span:focus,
+.page > .disable > a,
+.page > .disable > a:hover,
+.page > .disable > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.page-lg > li > a,
+.page-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+.page-lg > li:first-child > a,
+.page-lg > li:first-child > span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.page-lg > li:last-child > a,
+.page-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.page-sm > li > a,
+.page-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.page-sm > li:first-child > a,
+.page-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.page-sm > li:last-child > a,
+.page-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .disable > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .disable > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .disable > a:focus {
+    color: #444;
+    background-color: transparent;
+}
+.page {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.page > li {
+    display: inline;
+}
+.page > li > a,
+.page > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.page > li:first-child > a,
+.page > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.page > li:last-child > a,
+.page > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.page > li > a:hover,
+.page > li > span:hover,
+.page > li > a:focus,
+.page > li > span:focus {
+    z-index: 3;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.page > .actives > a,
+.page > .actives > span,
+.page > .actives > a:hover,
+.page > .actives > span:hover,
+.page > .actives > a:focus,
+.page > .actives > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.page > .disable > span,
+.page > .disable > span:hover,
+.page > .disable > span:focus,
+.page > .disable > a,
+.page > .disable > a:hover,
+.page > .disable > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+.page-lg > li > a,
+.page-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+.page-lg > li:first-child > a,
+.page-lg > li:first-child > span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.page-lg > li:last-child > a,
+.page-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.page-sm > li > a,
+.page-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.page-sm > li:first-child > a,
+.page-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.page-sm > li:last-child > a,
+.page-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+

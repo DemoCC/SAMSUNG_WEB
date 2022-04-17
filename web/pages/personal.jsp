@@ -1,10 +1,3 @@
-<%@ page import="domain.User" %><%--
-  Created by IntelliJ IDEA.
-  User: 阚理想
-  Date: 2021-5-30
-  Time: 上午 12:07
-  To change this template use File | Settings | File Templates.
---%>
 <jsp:useBean id="user" class="domain.User" scope="session"/>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
